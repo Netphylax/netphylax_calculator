@@ -196,7 +196,7 @@ def index():
                     bac2 = math.sqrt(positive_bac)
                     real_part  = b1 / a1
                     imaginary_part = bac2 / a1
-                    result = f"X1 = {real_part} + {imaginary_part}i\nX2 = {real_part} - {imaginary_part}i"
+                    result = f"No Real Roots!\n(Complex Solution: {real_part} ± {imaginary_part}i)"
                 else:
                     bac2 = math.sqrt(bac)
                     x1 = (b1 + bac2) / a1
